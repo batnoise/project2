@@ -1,0 +1,29 @@
+.background    { background: #250B62;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: #ED53D5; }
+.wall          { background: #08B7EE; }
+.floater       { background: #FFC1A0; }
+.goback { background: white; }
+
+.actor  { position: absolute;  }
+.coin   { background: #89F469; }
+.player { background: white; }
+.powerup { background: #D22738;}
+.reset { background: #D22738; }
+/* reminder change fireball/Fireball to powerup/Powerup  */
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: 0 0 25px blue, 0 0 5px darkblue;
+}
